@@ -4,8 +4,7 @@ import { builderViewWithCss } from '@react-form-builder/components-rsuite';
 
 function App() {
   return (
-    <div style={{ height: '100vh', width: '100vw', padding: 24 }}>
-      <h1>Form Builder Designer Demo</h1>
+    <div style={{ height: '100vh', width: '100%' }}>
       <FormBuilder view={builderViewWithCss} />
     </div>
   );
